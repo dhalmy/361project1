@@ -1,2 +1,2 @@
-# 361project1
-itmd361 project1
+# 361project2
+itmd361 project2
