@@ -139,8 +139,29 @@ h2 {
   margin-bottom: 5px;
 }
 
-
 .summary {
   border-top: 3px solid #007af5;
   padding: 20px;
+}
+
+.game p {
+  padding-left: 20px;
+  width: 90%;
+}
+
+.image-container {
+  width: 45%;
+  flex-shrink: 0;
+}
+
+#game-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
