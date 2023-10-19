@@ -29,6 +29,11 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.summary-writing{
+  padding: 0px 20px;
+
+}
+
 .resume {
   width: 80%;
   margin: 0 auto;
@@ -50,11 +55,6 @@ nav a:hover {
   list-style-type: none;
 }
 
-.section-divider {
-  border-top: 1px solid #aaa;
-  margin: 20px 0;
-}
-
 .skills-section {
   border-top: 2px solid black;
   padding-top: 20px;
@@ -66,6 +66,11 @@ h2 {
   margin-bottom: 20px;
 }
 
+.skills{
+  border-top: 3px solid #007af5;
+  padding: 20px;
+}
+
 .skills-content {
   margin-left: 20px;
 }
@@ -75,6 +80,7 @@ h2 {
 }
 
 .work {
+  border-top: 3px solid #007af5;
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
@@ -101,4 +107,34 @@ h2 {
 .experience-list {
   list-style-type: disc;
   margin-left: 20px;
+}
+
+.education {
+  padding: 20px;
+  border-top: 3px solid #007af5;
+  margin-bottom: 20px;
+}
+
+.education h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #2c3e50;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.degree {
+  margin-bottom: 15px;
+}
+
+.degree p {
+  margin: 0;
+  color: #2d3f52;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+
+.summary {
+  border-top: 3px solid #007af5;
+  padding: 20px;
 }
