@@ -164,13 +164,17 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  border-top: 3px solid #007af5;
+  padding: 20px;
 }
 
 .restaurant {
   display: flex;
   margin: 20px;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 1px;
+  border-top: 3px solid #7900db;
+  padding: 20px;
 }
 
 .restaurant-image {
