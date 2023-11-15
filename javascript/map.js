@@ -41,7 +41,7 @@ function initMap() {
   
 
   restaurants.forEach(function (restaurant) {
-    var iconUrl = (restaurant.name == "Illinois Institute of Technology") ? '/images/school.png' : null;
+    var iconUrl = (restaurant.name === "Illinois Institute of Technology") ? '/images/school.png' : null;
     var marker = new google.maps.Marker({
       position: restaurant.location,
       map,
