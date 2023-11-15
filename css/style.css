@@ -246,13 +246,21 @@ iframe {
     padding: 0;
     display: flex;
     align-items: left;
-    width: 100%;
+    width: 95%;
   }
   nav ul li {
-    display: block;
-    width: 100%;
+    display: flex;
+    width: 90%;
     text-align: left;
     margin-right: 0;
+    font-size: 14px;
+  }
+  body {
+    margin: 5px;
+    padding: 5px;
+  }
+  h1 {
+    font-size: 24px;
   }
 }
 
@@ -260,12 +268,6 @@ iframe {
   .game-image {
     width: 100%;
     height: auto;
-  }
-}
-
-@media (max-width: 767px) {
-  h1 {
-    font-size: 24px;
   }
   .game {
     padding: 10px;
@@ -281,9 +283,7 @@ iframe {
   }
 }
 
-@media (max-width: 767px) {
-  body {
-    margin: 5px;
-    padding: 5px;
-  }
+#map {
+  height: 400px;
+  width: 100%;
 }
