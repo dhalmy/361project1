@@ -46,6 +46,10 @@ nav a:hover {
   font-family: Arial, sans-serif;
 }
 
+.center h1 {
+  text-align: center;
+}
+
 .header h1 {
   text-align: center;
   font-size: 24px;
@@ -284,6 +288,20 @@ iframe {
 }
 
 #map {
-  height: 400px;
+  height: 700px;
   width: 100%;
+}
+
+#distanceTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#distanceTable, #distanceTable th, #distanceTable td {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#distanceTable th, #distanceTable td {
+  padding: 8px;
+  text-align: left;
 }
